@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* This is universal CSS style */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* This is universal CSS style */
+
+body img {
+    float: right;
+   
+}
+
+.navbar h3 {
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
+}
+.navbar img {
+    width: 1rem;
+    margin: .3rem   .4rem;
+    
+}
+.navbar button {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(145, 145, 145) solid;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    padding: .1rem .3rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.bannerimage {
+    width: 50dvw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:1 ;
+}
+section h1 {
+    color: rgb(14, 1, 96);
+    font-size: 5rem;
+}
+.bananaicon{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: rgb(14, 1, 96);
+}
+.bananaicon img {
+    margin-left: .5rem;
+    width: 2.5rem;
+    
+}
+section {
+    margin: 10rem 10rem;
+}
+section button {
+    font-size: 1.3rem;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 12px;
+    border-style: none;
+    color: white;
+    background-color: rgb(14, 1, 96);
+    margin-top: 6px;
+    cursor: pointer;
+}
+.section1{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 850px;
+    
+}
+
+.section2{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 850px;
+}
+.section3{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 1400px;
+}
+.section4{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 800px;
+}
+.section5{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 300px;
+}
+.section6{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 850px;
+}
+.section7{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #6260AB;
+}
+
+.image2 {
+    position: relative;
+    float: left;
+    top: 10rem;
+    left: 8rem;
+    width: 42rem;
+}
+
+.section2 h2 {
+    color: rgb(14, 1, 96);
+    font-size: 5.3rem;
+    font-weight: 500;
+    position: relative;
+    top: 18rem;
+    
+}
+
+.section2 p {
+    position: relative;
+    top: 21rem;
+    font-size: 1.7rem;
+    color: #808080;
+    
+}
+
+.section2 button {
+    position: relative;
+    top: 24rem;
+    width: 14rem;
+    height: 5rem;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 1.2rem;
+    background-color: #abcffe;
+    color: rgb(91, 110, 133);
+    cursor: pointer;
+}
+
+.applebutton{
+    text-align: left;
+    gap: 10px;
+}
+
+.section2 button span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(28, 37, 47);
+}
+
+.appleicon {
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 7px;
+    width: 2rem;
+    margin-right: 2.5rem;
+
+}
+
+.banner2 {
+    position: relative;
+    left: 15rem;
+    bottom: 3rem;
+}
+
+.banner3 img{
+    position: relative;
+    float: left;
+    width: 57rem;
+    top: 17rem;
+}
+
+.banner3 h2 {
+    position: relative;
+    font-size: 6.3rem;
+    top: 10rem;
+    right: 50rem;
+    
+}
+.banner3 p{
+    position: relative;
+    font-size: 3rem;
+    right: 2.5rem;
+    bottom: 3.6rem;
+    color: #9393C4;
+}
+
+.sub1 img{
+    position: relative;
+    float: left;
+    width: 6rem;
+    right: 2rem;
+}
+
+.sub1 h3{
+    font-size: 1.8rem;
+    position: relative;
+    top: 1.5rem;
+
+}
+.sub1 p{
+    position: relative;
+    float: left;
+    top: 3.2rem;
+    font-size: 1.5rem;
+    color: #9393C4;
+}
+
+.sub2{
+    position: relative;
+    float: left;
+    top: 8rem;
+}
+.sub2 img{
+    position: relative;
+    float: left;
+    width: 6rem;
+    right: 2rem;
+}
+
+.sub2 h3{
+    font-size: 1.8rem;
+    position: relative;
+    float: left;
+    top: 1.5rem;
+
+}
+.sub2 p{
+    position: relative;
+    float: left;
+    top: 5.7rem;
+    right: 16.8rem;
+    font-size: 1.5rem;
+    color: #9393C4;
+}
+
+.subimg1 {
+    position: relative;
+    float: left;
+    display: grid;
+    height: auto;
+    right:44rem;
+    bottom: 14.7rem;
+    gap: 1.5rem ;
+
+}
+.subimg1 img{
+    width: 11rem;
+    
+}
+
+.subimg2 {
+    position: relative;
+    float: left;
+    display: grid;
+    height: auto;
+    right:42.5rem;
+    bottom: 12rem;
+    gap: 1.5rem ;
+}
+.subimg2 img{
+    width: 11rem;
+}
+
+.banner4{
+    position: relative;
+}
+
+.banner4 h3 {
+    position: relative;
+    float: left;
+    font-size: 5rem;
+    font-weight: 500;
+    left: 7rem;
+    top: 5rem;
+}
+
+.banner4 p {
+    position: relative;
+    float: left;
+    top: 20rem;
+    right: 15rem;
+    font-size: 1.7rem;
+    color: #808080;
+}
+
+.banner4 button {
+    position: relative;
+    float: left;
+    right: 15rem;
+    top: 23rem;
+    width: 14rem;
+    height: 5rem;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 1.2rem;
+    background-color: #abcffe;
+    color: rgb(91, 110, 133);
+    cursor: pointer;
+}
+.banner4 button span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(28, 37, 47);
+}
+
+.image4 {
+    position: relative;
+    width: 42rem;
+    right: 7rem;
+    bottom: 2rem;
+}
+
+
+.section5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section5 img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.midbanner {
+    background-color: #D9F4FF;
+    width: 90%;
+    height: 45rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 4rem;
+
+}
+
+.midbanner h3 {
+    position: relative;
+    top: 14rem;
+    left: 10rem;
+    font-size: 5rem;
+}
+.banner6{
+    width: 39rem;
+    position: relative;
+    right: 13rem;
+    top: .5rem;
+}
+
+.midbanner button {    
+    position: relative;
+    float: left;
+    left: 10rem;
+    top: 16rem;
+    width: 14rem;
+    height: 5rem;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 1.2rem;
+    background-color: #130F49;
+    color: #807da9;
+    cursor: pointer;
+}
+.midbanner button span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+
